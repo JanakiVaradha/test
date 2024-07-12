@@ -13,7 +13,9 @@
   },
   "dependencies": {
     "express": "^4.18.2",
-    "jest":"--save-dev babel-cli babel-preset-env jest supertest superagent"
+   "jest": {
+    "verbose": true
+  }
   },
   "engines": {
     "node": ">=14"
